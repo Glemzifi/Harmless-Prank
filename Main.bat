@@ -14,8 +14,5 @@ timeout /t 5 /nobreak >nul
 rem Run the existing VBS file
 start /min wscript "ALOO.vbs"
 
-rem Optional: Delete the temporary text file after running
-del "Your.txt"
-
 rem Run the second existing VBS file
 start /min wscript "Riyal.vbs"
